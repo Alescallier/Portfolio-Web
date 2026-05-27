@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- ====================================================
+       META / SEO
+  ===================================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Alejandro Escallier — Systems Engineer & Game Developer. Ingeniería, creatividad y desarrollo de videojuegos." />
+  <meta name="keywords" content="Alejandro Escallier, Systems Engineer, Game Developer, Unity, C#, Portfolio, Argentina" />
+  <meta name="author" content="Alejandro Escallier" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Alejandro Escallier — Systems Engineer & Game Developer" />
+  <meta property="og:description" content="Combining engineering, creativity and game development into meaningful digital experiences." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Alejandro Escallier — Systems Engineer & Game Developer" />
+  <meta name="twitter:description" content="Combining engineering, creativity and game development into meaningful digital experiences." />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/favicon.ico" />
+
+  <!-- Stylesheet externo (a implementar) -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Alejandro Escallier — Systems Engineer & Game Developer</title>
+</head>
+
+<body>
+
+  <!-- ====================================================
+       SKIP LINK — Accesibilidad
+  ===================================================== -->
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- ====================================================
+       HEADER / NAV
+  ===================================================== -->
+  <header class="site-header" role="banner">
+    <nav class="nav-primary" aria-label="Navegación principal">
+      <div class="nav-logo">
+        <a href="#hero" aria-label="Volver al inicio — Alejandro Escallier">
+          <span class="nav-logo__initials" aria-hidden="true">AE</span>
+        </a>
+      </div>
+
+      <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a class="nav-menu__link" href="#background">Background</a></li>
+        <li><a class="nav-menu__link" href="#skills">Skills</a></li>
+        <li><a class="nav-menu__link" href="#journey">Journey</a></li>
+        <li><a class="nav-menu__link" href="#work">Work</a></li>
+        <li><a class="nav-menu__link nav-menu__link--cta" href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ====================================================
+       MAIN
+  ===================================================== -->
+  <main id="main-content">
+
+    <!-- ================================================
+         HERO SECTION
+    ================================================= -->
+    <section id="hero" class="section section--hero" aria-label="Presentación principal">
+
+      <!-- Watermark editorial de fondo -->
+      <div class="hero__watermark" aria-hidden="true">
+        <span class="hero__watermark-text">SYSTEMS<br />ENGINEER</span>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__label" aria-hidden="true">
+          <span class="hero__label-line"></span>
+          <span class="hero__label-text">Portfolio 2026</span>
+        </div>
+
+        <h1 class="hero__name">
+          <span class="hero__name-first">Alejandro</span>
+          <span class="hero__name-last">Escallier</span>
+        </h1>
+
+        <p class="hero__headline">Systems Engineer &amp; Game Developer</p>
+
+        <p class="hero__tagline">
+          Combining engineering, creativity and game development<br />
+          into meaningful digital experiences.
+        </p>
+
+        <div class="hero__cta-group">
+          <a class="btn btn--primary" href="#work" aria-label="Ver proyectos seleccionados">
+            Ver Proyectos
+          </a>
+          <a
+            class="btn btn--secondary"
+            href="assets/cv/Alejandro_Escallier_CV.pdf"
+            download="Alejandro_Escallier_CV.pdf"
+            aria-label="Descargar CV de Alejandro Escallier en PDF"
+          >
+            Descargar CV
+          </a>
+        </div>
+      </div>
+
+      <!-- Indicador de scroll -->
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span class="hero__scroll-text">Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ================================================
+         BACKGROUND / SOBRE MÍ
+    ================================================= -->
+    <section id="background" class="section section--background" aria-labelledby="background-title">
+
+      <div class="section__inner">
+
+        <header class="section__header">
+          <span class="section__number" aria-hidden="true">01</span>
+          <h2 class="section__title" id="background-title">Background</h2>
+        </header>
+
+        <div class="background__grid">
+
+          <!-- Columna imagen -->
+          <div class="background__image-col">
+            <figure class="background__figure">
+              <img
+                class="background__photo"
+                src="assets/profile/profile.jpg"
+                alt="Fotografía de perfil de Alejandro Escallier, Systems Engineer y Game Developer"
+                width="480"
+                height="600"
+                loading="lazy"
+              />
+              <figcaption class="background__photo-caption" aria-hidden="true">
+                Alejandro Escallier · Argentina
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- Columna texto -->
+          <div class="background__text-col">
+            <div class="background__body">
+              <p class="background__intro">
+                Soy estudiante avanzado de Ingeniería en Sistemas, cursando actualmente el cuarto año de la carrera. 
+                Mi perfil se construyó en la intersección de la ingeniería, la creatividad y el desarrollo de software, 
+                con una inclinación genuina por el desarrollo de videojuegos y los sistemas complejos.
+              </p>
+
+              <p class="background__text">
+                A lo largo de mi formación desarrollé proyectos que combinan diseño técnico con narrativa, 
+                desde videojuegos con mecánicas propias hasta sistemas de gestión de bases de datos relacionales. 
+                Me interesa profundamente la forma en que la tecnología puede construir experiencias con significado: 
+                no sólo sistemas que funcionan, sino sistemas que comunican algo.
+              </p>
+
+              <p class="background__text">
+                Mis áreas de interés principales incluyen el desarrollo de videojuegos, la ingeniería de software, 
+                las bases de datos, la ciberseguridad, el machine learning y la gestión de proyectos. 
+                Busco siempre un enfoque interdisciplinario: creo que las mejores soluciones nacen cuando 
+                la lógica técnica y el pensamiento creativo trabajan juntos.
+              </p>
+
+              <p class="background__text">
+                En cuanto a lo humano: soy metódico pero adaptable, disfruto el trabajo en equipo 
+                y valoro la comunicación honesta. Me muevo bien en entornos de alta incertidumbre 
+                y aprendo rápido cuando el problema es interesante. Estoy construyendo la carrera 
+                con la misma atención con la que construyo mis proyectos.
+              </p>
+
+              <div class="background__tags" aria-label="Áreas de interés">
+                <span class="tag">Game Development</span>
+                <span class="tag">Systems Engineering</span>
+                <span class="tag">Databases</span>
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Project Management</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         INFO GRID — Educación / Contacto / Ubicación
+    ================================================= -->
+    <section id="info" class="section section--info" aria-labelledby="info-title">
+      <div class="section__inner">
+        <h2 class="sr-only" id="info-title">Información de contacto y educación</h2>
+
+        <div class="info-grid">
+
+          <!-- Educación -->
+          <article class="info-card" aria-labelledby="info-education-title">
+            <header class="info-card__header">
+              <span class="info-card__icon" aria-hidden="true">—</span>
+              <h3 class="info-card__title" id="info-education-title">Educación</h3>
+            </header>
+            <div class="info-card__body">
+              <p class="info-card__main">Ingeniería en Sistemas</p>
+              <p class="info-card__sub">4° Año · En curso</p>
+              <p class="info-card__sub">Universidad · Argentina</p>
+            </div>
+          </article>
+
+          <!-- Contacto -->
+          <article class="info-card" aria-labelledby="info-contact-title">
+            <header class="info-card__header">
+              <span class="info-card__icon" aria-hidden="true">—</span>
+              <h3 class="info-card__title" id="info-contact-title">Contacto</h3>
+            </header>
+            <div class="info-card__body">
+              <p class="info-card__main">
+                <a href="mailto:escallieralejandro0@gmail.com" class="info-card__link">
+                  escallieralejandro0@gmail.com
+                </a>
+              </p>
+              <p class="info-card__sub">
+                <a
+                  href="https://www.linkedin.com/in/alejandro-escallier"
+                  class="info-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Perfil de LinkedIn de Alejandro Escallier (abre en nueva pestaña)"
+                >
+                  LinkedIn
+                </a>
+              </p>
+              <p class="info-card__sub">
+                <a
+                  href="https://github.com/Alescallier"
+                  class="info-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Perfil de GitHub de Alejandro Escallier (abre en nueva pestaña)"
+                >
+                  GitHub
+                </a>
+              </p>
+              <p class="info-card__sub">
+                <a
+                  href="assets/cv/Alejandro_Escallier_CV.pdf"
+                  class="info-card__link"
+                  download="Alejandro_Escallier_CV.pdf"
+                  aria-label="Descargar CV en formato PDF"
+                >
+                  Descargar CV
+                </a>
+              </p>
+            </div>
+          </article>
+
+          <!-- Ubicación -->
+          <article class="info-card" aria-labelledby="info-location-title">
+            <header class="info-card__header">
+              <span class="info-card__icon" aria-hidden="true">—</span>
+              <h3 class="info-card__title" id="info-location-title">Ubicación</h3>
+            </header>
+            <div class="info-card__body">
+              <p class="info-card__main">Argentina</p>
+              <p class="info-card__sub">Posadas, Misiones</p>
+              <p class="info-card__sub info-card__sub--highlight">Remote Friendly</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         SKILLS
+    ================================================= -->
+    <section id="skills" class="section section--skills" aria-labelledby="skills-title">
+
+      <!-- Watermark editorial -->
+      <div class="skills__watermark" aria-hidden="true">SKILLS</div>
+
+      <div class="section__inner">
+        <header class="section__header">
+          <span class="section__number" aria-hidden="true">02</span>
+          <h2 class="section__title" id="skills-title">Stack &amp; Habilidades</h2>
+        </header>
+
+        <div class="skills-grid">
+
+          <!-- Lenguajes -->
+          <div class="skills-group">
+            <h3 class="skills-group__title">Lenguajes</h3>
+            <ul class="skills-list" role="list" aria-label="Lenguajes de programación">
+              <li class="skills-list__item">C#</li>
+              <li class="skills-list__item">PHP</li>
+              <li class="skills-list__item">SQL</li>
+              <li class="skills-list__item">JavaScript</li>
+              <li class="skills-list__item">HTML</li>
+              <li class="skills-list__item">CSS</li>
+              <li class="skills-list__item">Python</li>
+            </ul>
+          </div>
+
+          <!-- Herramientas -->
+          <div class="skills-group">
+            <h3 class="skills-group__title">Herramientas</h3>
+            <ul class="skills-list" role="list" aria-label="Herramientas y tecnologías">
+              <li class="skills-list__item">Unity</li>
+              <li class="skills-list__item">Blender</li>
+              <li class="skills-list__item">MySQL</li>
+              <li class="skills-list__item">Git</li>
+              <li class="skills-list__item">GitHub</li>
+              <li class="skills-list__item">Figma</li>
+              <li class="skills-list__item">VSCode</li>
+              <li class="skills-list__item">XAMPP</li>
+            </ul>
+          </div>
+
+          <!-- Áreas de interés -->
+          <div class="skills-group">
+            <h3 class="skills-group__title">Áreas de Interés</h3>
+            <ul class="skills-list skills-list--areas" role="list" aria-label="Áreas de interés profesional">
+              <li class="skills-list__item">Game Development</li>
+              <li class="skills-list__item">Systems Engineering</li>
+              <li class="skills-list__item">Cybersecurity</li>
+              <li class="skills-list__item">Databases</li>
+              <li class="skills-list__item">AI / Machine Learning</li>
+              <li class="skills-list__item">Project Management</li>
+              <li class="skills-list__item">UX Thinking</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         PROJECT JOURNEY / TIMELINE
+    ================================================= -->
+    <section id="journey" class="section section--journey" aria-labelledby="journey-title">
+      <div class="section__inner">
+        <header class="section__header">
+          <span class="section__number" aria-hidden="true">03</span>
+          <h2 class="section__title" id="journey-title">Project Journey</h2>
+        </header>
+
+        <ol class="timeline" aria-label="Línea de tiempo de proyectos">
+
+          <li class="timeline__item">
+            <div class="timeline__year" aria-label="Año 2023">2023</div>
+            <div class="timeline__connector" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <span class="timeline__category">Desarrollo de Videojuegos</span>
+              <h3 class="timeline__project">Piety in Full Moon</h3>
+              <p class="timeline__description">
+                Videojuego académico de terror atmosférico basado en el folklore argentino y guaraní. 
+                Rol completo de diseño, programación y narrativa.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__year" aria-label="Año 2024">2024</div>
+            <div class="timeline__connector" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <span class="timeline__category">Diseño de Base de Datos</span>
+              <h3 class="timeline__project">Hotel Management Database</h3>
+              <p class="timeline__description">
+                Sistema de gestión hotelera completo en SQL. Modelado relacional, 
+                normalización y consultas avanzadas sobre reservas, clientes y facturación.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item">
+            <div class="timeline__year" aria-label="Año 2025">2025</div>
+            <div class="timeline__connector" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <span class="timeline__category">Desarrollo Web</span>
+              <h3 class="timeline__project">Amictus</h3>
+              <p class="timeline__description">
+                E-commerce académico con catálogo dinámico, carrito persistente 
+                y panel administrativo construido con PHP, MySQL y JavaScript.
+              </p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================================================
+         SELECTED WORK
+    ================================================= -->
+    <section id="work" class="section section--work" aria-labelledby="work-title">
+      <div class="section__inner">
+
+        <header class="section__header section__header--work">
+          <span class="section__number" aria-hidden="true">04</span>
+          <h2 class="section__title section__title--large" id="work-title">
+            Selected<br />Work
+          </h2>
+          <p class="section__subtitle">Proyectos seleccionados</p>
+        </header>
+
+        <!-- ----------------------------------------
+             PROYECTO 01 — PIETY IN FULL MOON
+        ----------------------------------------- -->
+        <article class="project project--featured" id="project-piety" aria-labelledby="piety-title">
+
+          <div class="project__label-row" aria-hidden="true">
+            <span class="project__number">01</span>
+            <span class="project__category">Game Development · Unity · C#</span>
+          </div>
+
+          <!-- Hero image del proyecto -->
+          <figure class="project__hero-figure">
+            <img
+              class="project__hero-img"
+              src="assets/projects/piety/hero.webp"
+              alt="Piety in Full Moon — Pantalla principal del videojuego de terror ambientado en el cementerio La Piedad de Posadas, Misiones"
+              width="1400"
+              height="700"
+              loading="lazy"
+            />
+          </figure>
+
+          <div class="project__body">
+
+            <div class="project__meta-col">
+              <h3 class="project__title" id="piety-title">Piety in<br />Full Moon</h3>
+              <dl class="project__details">
+                <dt class="project__details-label">Año</dt>
+                <dd class="project__details-value">2023</dd>
+
+                <dt class="project__details-label">Tipo</dt>
+                <dd class="project__details-value">Videojuego Académico</dd>
+
+                <dt class="project__details-label">Stack</dt>
+                <dd class="project__details-value">Unity · C# · Blender</dd>
+              </dl>
+
+              <div class="project__roles">
+                <h4 class="project__roles-title">Rol</h4>
+                <ul class="project__roles-list" role="list" aria-label="Roles desempeñados en Piety in Full Moon">
+                  <li>Game Design</li>
+                  <li>Gameplay Programming</li>
+                  <li>Narrative Design</li>
+                  <li>Level Design</li>
+                  <li>QA / Testing</li>
+                  <li>UI / HUD</li>
+                  <li>IA Enemiga</li>
+                  <li>Prototipado</li>
+                </ul>
+              </div>
+
+              <a
+                class="btn btn--primary btn--project"
+                href="https://github.com/Alescallier/Piety-in-full-moon"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver repositorio de Piety in Full Moon en GitHub (abre en nueva pestaña)"
+              >
+                Ver en GitHub
+              </a>
+            </div>
+
+            <div class="project__info-col">
+              <p class="project__description">
+                Videojuego académico de terror ambientado en el cementerio La Piedad de Posadas, Misiones. 
+                Inspirado en el folklore argentino y guaraní, con narrativa centrada en la leyenda del Lobizón.
+              </p>
+
+              <p class="project__description">
+                Un joven que vive frente al cementerio escucha historias sobre el Lobizón contadas por su abuelo. 
+                Durante la noche comienzan sucesos extraños. El jugador debe ingresar al cementerio, 
+                recolectar tres llaves y escapar mientras evita a la criatura. 
+                Una experiencia que cruza el terror atmosférico con la identidad cultural regional.
+              </p>
+
+              <!-- Galería del proyecto -->
+              <div class="project__gallery" role="list" aria-label="Galería de capturas de Piety in Full Moon">
+
+                <figure class="project__gallery-item" role="listitem">
+                  <img
+                    class="project__gallery-img"
+                    src="assets/projects/piety/gallery-1.webp"
+                    alt="Piety in Full Moon — Escena 1: ambiente nocturno del cementerio"
+                    width="680"
+                    height="383"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <figure class="project__gallery-item" role="listitem">
+                  <img
+                    class="project__gallery-img"
+                    src="assets/projects/piety/gallery-2.webp"
+                    alt="Piety in Full Moon — Escena 2: recorrido por el cementerio"
+                    width="680"
+                    height="383"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <figure class="project__gallery-item" role="listitem">
+                  <img
+                    class="project__gallery-img"
+                    src="assets/projects/piety/gallery-3.webp"
+                    alt="Piety in Full Moon — Escena 3: mecánica de recolección de llaves"
+                    width="680"
+                    height="383"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <figure class="project__gallery-item" role="listitem">
+                  <img
+                    class="project__gallery-img"
+                    src="assets/projects/piety/gallery-4.webp"
+                    alt="Piety in Full Moon — Escena 4: encuentro con el Lobizón"
+                    width="680"
+                    height="383"
+                    loading="lazy"
+                  />
+                </figure>
+
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Separador editorial -->
+        <div class="work__divider" aria-hidden="true"></div>
+
+        <!-- ----------------------------------------
+             PROYECTO 02 — AMICTUS
+        ----------------------------------------- -->
+        <article class="project project--secondary" id="project-amictus" aria-labelledby="amictus-title">
+
+          <div class="project__label-row" aria-hidden="true">
+            <span class="project__number">02</span>
+            <span class="project__category">Desarrollo Web · PHP · MySQL</span>
+          </div>
+
+          <div class="project__body project__body--secondary">
+
+            <!-- Placeholder imagen elegante -->
+            <figure class="project__placeholder-figure" aria-label="Imagen del proyecto Amictus (próximamente)">
+              <div class="project__placeholder">
+                <span class="project__placeholder-text" aria-hidden="true">AMICTUS</span>
+                <span class="project__placeholder-sub" aria-hidden="true">E-Commerce · 2025</span>
+              </div>
+            </figure>
+
+            <div class="project__info-col">
+              <h3 class="project__title" id="amictus-title">Amictus</h3>
+              <p class="project__tagline">Tienda de ropa online</p>
+
+              <p class="project__description">
+                Proyecto académico de e-commerce completo. Sistema de tienda online con catálogo dinámico 
+                generado desde base de datos, carrito persistente, categorías de productos, 
+                simulación de checkout, panel administrativo con CRUD completo y sistema de login para administradores.
+              </p>
+
+              <dl class="project__details project__details--inline">
+                <dt class="project__details-label">Stack</dt>
+                <dd class="project__details-value">PHP · MySQL · JavaScript · HTML · CSS</dd>
+
+                <dt class="project__details-label">Tipo</dt>
+                <dd class="project__details-value">Aplicación Web Académica</dd>
+
+                <dt class="project__details-label">Año</dt>
+                <dd class="project__details-value">2025</dd>
+              </dl>
+
+              <ul class="project__features" role="list" aria-label="Funcionalidades de Amictus">
+                <li>Renderizado dinámico desde MySQL</li>
+                <li>Carrito persistente</li>
+                <li>Categorías de productos</li>
+                <li>Checkout</li>
+                <li>Panel administrador CRUD</li>
+              </ul>
+
+              <a
+                class="btn btn--primary btn--project"
+                href="https://github.com/Alescallier/FoodExpress"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver repositorio de Amictus en GitHub (abre en nueva pestaña)"
+              >
+                Ver en GitHub
+              </a>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Separador editorial -->
+        <div class="work__divider" aria-hidden="true"></div>
+
+        <!-- ----------------------------------------
+             PROYECTO 03 — HOTEL MANAGEMENT DATABASE
+        ----------------------------------------- -->
+        <article class="project project--secondary" id="project-hotel" aria-labelledby="hotel-title">
+
+          <div class="project__label-row" aria-hidden="true">
+            <span class="project__number">03</span>
+            <span class="project__category">Database Design · SQL · MySQL</span>
+          </div>
+
+          <div class="project__body project__body--secondary project__body--reverse">
+
+            <div class="project__info-col">
+              <h3 class="project__title" id="hotel-title">Hotel Management<br />Database</h3>
+              <p class="project__tagline">Sistema de gestión hotelera</p>
+
+              <p class="project__description">
+                Sistema académico de gestión hotelera construido sobre SQL. 
+                Cubre la gestión completa de hoteles, habitaciones, reservas, clientes y facturación. 
+                Diseñado desde el modelado conceptual hasta la implementación relacional, 
+                incluyendo normalización y consultas SQL avanzadas.
+              </p>
+
+              <dl class="project__details project__details--inline">
+                <dt class="project__details-label">Stack</dt>
+                <dd class="project__details-value">MySQL · SQL</dd>
+
+                <dt class="project__details-label">Tipo</dt>
+                <dd class="project__details-value">Base de Datos Académica</dd>
+
+                <dt class="project__details-label">Año</dt>
+                <dd class="project__details-value">2024</dd>
+              </dl>
+
+              <ul class="project__features" role="list" aria-label="Características del Hotel Management Database">
+                <li>Modelo MER completo</li>
+                <li>Diagrama de entidad-relación (DER)</li>
+                <li>Modelo relacional normalizado</li>
+                <li>Consultas SQL avanzadas</li>
+                <li>Gestión de reservas y facturación</li>
+              </ul>
+
+              <a
+                class="btn btn--primary btn--project"
+                href="https://github.com/Alescallier/hotel-management-database"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver repositorio de Hotel Management Database en GitHub (abre en nueva pestaña)"
+              >
+                Ver en GitHub
+              </a>
+            </div>
+
+            <!-- Imágenes técnicas del proyecto -->
+            <div class="project__diagrams">
+              <figure class="project__diagram-figure">
+                <img
+                  class="project__diagram-img"
+                  src="assets/projects/hotel/mer.webp"
+                  alt="Modelo de Entidad-Relación (MER) del sistema de gestión hotelera"
+                  width="680"
+                  height="480"
+                  loading="lazy"
+                />
+                <figcaption class="project__diagram-caption">MER — Modelo de Entidad-Relación</figcaption>
+              </figure>
+
+              <figure class="project__diagram-figure">
+                <img
+                  class="project__diagram-img"
+                  src="assets/projects/hotel/der.webp"
+                  alt="Diagrama de Entidad-Relación (DER) del sistema de gestión hotelera"
+                  width="680"
+                  height="480"
+                  loading="lazy"
+                />
+                <figcaption class="project__diagram-caption">DER — Diagrama Entidad-Relación</figcaption>
+              </figure>
+            </div>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         CONTACT SECTION
+    ================================================= -->
+    <section id="contact" class="section section--contact" aria-labelledby="contact-title">
+      <div class="section__inner">
+
+        <div class="contact__content">
+          <div class="contact__watermark" aria-hidden="true">CONTACT</div>
+
+          <header class="contact__header">
+            <span class="section__number" aria-hidden="true">05</span>
+            <h2 class="contact__title" id="contact-title">
+              Let's Build<br />Something.
+            </h2>
+          </header>
+
+          <p class="contact__text">
+            Estoy disponible para proyectos, colaboraciones o simplemente para hablar sobre tecnología, 
+            videojuegos o ideas interesantes. No dudes en escribir.
+          </p>
+
+          <nav class="contact__links" aria-label="Canales de contacto">
+
+            <a
+              class="contact__link contact__link--email"
+              href="mailto:escallieralejandro0@gmail.com"
+              aria-label="Enviar email a Alejandro Escallier"
+            >
+              <span class="contact__link-label" aria-hidden="true">Email</span>
+              <span class="contact__link-value">escallieralejandro0@gmail.com</span>
+              <span class="contact__link-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a
+              class="contact__link"
+              href="https://www.linkedin.com/in/alejandro-escallier"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visitar el perfil de LinkedIn de Alejandro Escallier (abre en nueva pestaña)"
+            >
+              <span class="contact__link-label" aria-hidden="true">LinkedIn</span>
+              <span class="contact__link-value">alejandro-escallier</span>
+              <span class="contact__link-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a
+              class="contact__link"
+              href="https://github.com/Alescallier"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visitar el perfil de GitHub de Alejandro Escallier (abre en nueva pestaña)"
+            >
+              <span class="contact__link-label" aria-hidden="true">GitHub</span>
+              <span class="contact__link-value">Alescallier</span>
+              <span class="contact__link-arrow" aria-hidden="true">→</span>
+            </a>
+
+          </nav>
+
+          <div class="contact__cv">
+            <a
+              class="btn btn--primary"
+              href="assets/cv/Alejandro_Escallier_CV.pdf"
+              download="Alejandro_Escallier_CV.pdf"
+              aria-label="Descargar CV de Alejandro Escallier en formato PDF"
+            >
+              Descargar CV
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================
+       FOOTER
+  ===================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer__inner">
+
+      <div class="footer__identity">
+        <p class="footer__name">Alejandro Escallier</p>
+        <p class="footer__role">Systems Engineer &amp; Game Developer</p>
+      </div>
+
+      <div class="footer__center" aria-hidden="true">
+        <span class="footer__mark">AE</span>
+      </div>
+
+      <div class="footer__right">
+        <p class="footer__copy">
+          <span aria-label="Copyright 2026">&copy; 2026</span>
+        </p>
+        <p class="footer__location">Argentina · Remote Friendly</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ====================================================
+       JAVASCRIPT MÍNIMO — Toggle menú mobile
+  ===================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* --- Mobile nav toggle --- */
+      var toggleBtn = document.querySelector('.nav-toggle');
+      var navMenu   = document.querySelector('.nav-menu');
+
+      if (toggleBtn && navMenu) {
+        toggleBtn.addEventListener('click', function () {
+          var isOpen = navMenu.classList.toggle('nav-menu--open');
+          toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+
+        /* Cerrar al hacer click en un link */
+        navMenu.querySelectorAll('.nav-menu__link').forEach(function (link) {
+          link.addEventListener('click', function () {
+            navMenu.classList.remove('nav-menu--open');
+            toggleBtn.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
+
+      /* --- Header visible al hacer scroll --- */
+      var header = document.querySelector('.site-header');
+      if (header) {
+        window.addEventListener('scroll', function () {
+          if (window.scrollY > 80) {
+            header.classList.add('site-header--scrolled');
+          } else {
+            header.classList.remove('site-header--scrolled');
+          }
+        }, { passive: true });
+      }
+
+    }());
+  </script>
+
+</body>
+</html>
